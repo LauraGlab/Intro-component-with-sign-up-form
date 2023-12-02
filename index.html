@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="first-cube">
+        <h1>Learn to code by watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </section>
+      <section class="second-cube">
+        <div class="advertise">
+          <p>
+            <span style="font-weight: 700">Try it free 7 days</span> then
+            $20/mo. thereafter
+          </p>
+        </div>
+          <form name="myForm" class="form-cube" id="form">
+            <div class="collecting-data" id="data">
+              <input
+                type="text"
+                class="abcd"
+                name="name"
+                id="firstname"
+                placeholder="First Name"
+                value=""
+              />
+              <small id="firsts">First name is invalid</small>
+            </div>
+            <div class="collecting-data" id="data">
+              <input
+                type="text"
+                class="abcd"
+                id="lastname"
+                placeholder="Last Name"
+                value=""
+              />
+              <small id="seconds">Last name is invalid</small>
+            </div>
+            <div class="collecting-data" id="data">
+              <input
+                type="email"
+                class="abcd"
+                id="email"
+                placeholder="Email Address"
+                value=""
+              />
+              <small id="thirds">The e-mail is invalid</small>
+            </div>
+            <div class="collecting-data" id="data">
+              <input
+                type="password"
+                class="abcd"
+                id="password"
+                placeholder="Password"
+                value=""
+              />
+              <small id="fourths">The password is invalid</small>
+            </div>
+            <button>Claim your free trial</button>
+            <p>
+              By clicking the button, you are agreeing to our
+              <a href="#">Terms and Services</a>
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
